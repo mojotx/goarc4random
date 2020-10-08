@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-import arc4 "github.com/mojotx/goarc4random/arc4random"
+import arc4 "github.com/mojotx/goarc4random/pkg/arc4random"
 
 func main() {
 	const (
