@@ -23,7 +23,8 @@ func main() {
 		fmt.Printf("%d: %d\n", i, n)
 	}
 
-	fmt.Println("\n\x1B[36mDumping...\x1B[0m\n")
+	fmt.Println("\n\x1B[36mDumping...\x1B[0m")
+	fmt.Println()
 
 	sum := uint(0)
 	for i, e := range count {
